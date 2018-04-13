@@ -253,6 +253,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/smessage.h \
     src/sync.h \
     src/util.h \
+    src/utilstrencodings.h \
     src/uint256.h \
     src/kernel.h \
     src/scrypt.h \
@@ -370,6 +371,7 @@ SOURCES += src/qt/bitcoin.cpp \
     src/version.cpp \
     src/sync.cpp \
     src/util.cpp \
+    src/utilstrencodings.h \
     src/netbase.cpp \
     src/key.cpp \
     src/script.cpp \
