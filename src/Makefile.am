@@ -83,6 +83,7 @@ BITCOIN_CORE_H = \
   ui_interface.h \
   uint256.h \
   util.h \
+  utilstrencodings.h \
   scrypt.h \
   strlcpy.h \
   version.h \
@@ -204,6 +205,7 @@ libbitcoin_util_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_util_a_SOURCES = \
   sync.cpp \
   util.cpp \
+  utilstrencodings.cpp \
   $(BITCOIN_CORE_H)
 
 if GLIBC_BACK_COMPAT
