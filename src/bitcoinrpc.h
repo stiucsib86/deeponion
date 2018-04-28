@@ -200,6 +200,7 @@ extern json_spirit::Value walletlock(const json_spirit::Array& params, bool fHel
 extern json_spirit::Value encryptwallet(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value validateaddress(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value getinfo(const json_spirit::Array& params, bool fHelp);
+extern json_spirit::Value uptime(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value reservebalance(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value checkwallet(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value repairwallet(const json_spirit::Array& params, bool fHelp);
@@ -230,6 +231,7 @@ extern json_spirit::Value getnetworkhashps(const json_spirit::Array& params, boo
 extern json_spirit::Value getnewstealthaddress(const json_spirit::Array &params, bool fHelp);
 extern json_spirit::Value liststealthaddresses(const json_spirit::Array &params, bool fHelp);
 extern json_spirit::Value importstealthaddress(const json_spirit::Array &params, bool fHelp);
+extern json_spirit::Value exportstealthaddress(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value sendtostealthaddress(const json_spirit::Array &params, bool fHelp);
 extern json_spirit::Value clearwallettransactions(const json_spirit::Array &params, bool fHelp);
 extern json_spirit::Value scanforalltxns(const json_spirit::Array &params, bool fHelp);
