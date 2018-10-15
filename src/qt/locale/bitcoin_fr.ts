@@ -2971,7 +2971,7 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+57"/>
-        <source>WARNING: syncronized checkpoint violation detected, but skipped!</source>
+        <source>WARNING: synhcronized checkpoint violation detected, but skipped!</source>
         <translation>ATTENTION : violation du checkpoint de synchronisation, mais ignorée!</translation>
     </message>
     <message>
@@ -3382,7 +3382,7 @@ Si le fichier n&apos;existe pas, créez-le avec les droits de lecture seule acco
     <message>
         <location line="+668"/>
         <source>Please wait until it is fully synchronized and check back.</source>
-        <translation>S&apos;il vous plaît attender la fin de la synchronisation est vérifié à nouveau...</translation>
+        <translation>Merci d'attendre jusqu'à la fin de la synchronisation et vérifier à nouveau...</translation>
     </message>
     <message>
         <location line="+674"/>
